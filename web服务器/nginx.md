@@ -1,6 +1,39 @@
+## nginx安装
+
+CentOS
+
+安装gcc  pcre-devel zlib-devel openssl-devel
+
+```
+yum -y install gcc pcre-devel zlib-devel openssl openssl-devel
+```
+
+下载tar.gz 
+
+```
+#解压
+tar -zxvf nginx-XXX.tar.gz
+
+cd nginx-XXX
+#配置
+./configure --prefix=/usr/local/nginx
+
+make
+make install
+#测试是否成功
+./sbin/nginx -t 
+
+启动
+./nginx
+```
+
+添加ssl配置
+
+
+
 ## Nginx基础复习
 
-### 核心配置分析
+## 核心配置分析
 
 ## 虚拟主机配置
 
