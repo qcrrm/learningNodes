@@ -52,9 +52,21 @@ SQL语言包含以下4个部分。
 
 ### 1.2.3 数据库访问技术
 
--   Open Database Connectivity(开放数据库互连)
--   Java Data Base Connectivity(java数据库连接)
+-   Open Database Connectivity(开放数据库互连) **ODBC**
+-   Java Data Base Connectivity(java数据库连接) **JDBC**
 
 用于java应用程序连接数据库的标准方法
 
-ADO.NET    PDO(PHP Data Object)
+-   ADO.NET    
+-   PDO(PHP Data Object) 
+
+## 1.3 MySQL
+
+MySQL是一个小型关系型数据库管理系统。（大型：Oracle、DB2、SQL Server）
+
+规模小、功能有限，但是它体积小、速度快，成本低。
+
+### 1.3.1
+
+FQGPALVZIMYFBWCS
+

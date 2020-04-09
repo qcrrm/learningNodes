@@ -45,3 +45,14 @@ select table_name from information_schema.tables where table_schema = 'test';
 desc student;
 ```
 
+### 创建数据表
+
+修改数据时自动添加时间
+
+```sql
+--defalut current_timestamp 
+`gmt_create` datetime defalut current_timestamp comment '创建时间',
+-- on update current_timestamp
+`gmt_modified` datetime dafault current_timestamp on update current_timestamp comment '更新时间',
+```
+
