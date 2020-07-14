@@ -8,3 +8,9 @@ ctrl + shift + F
 
 四个空格
 
+## Java -> Code Style -> Formatter 
+
+Line Wrappering
+
+-> Never join already wrapped lines 
+
