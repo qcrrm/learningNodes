@@ -56,3 +56,25 @@ desc student;
 `gmt_modified` datetime dafault current_timestamp on update current_timestamp comment '更新时间',
 ```
 
+### 添加字段
+
+```
+alert table table_name add column_name varchar(20) not null
+```
+
+
+
+## 数据类型
+
+| mysql   | java   |      |
+| ------- | ------ | ---- |
+| VARCHAR | String |      |
+| CAHR    | String |      |
+|         |        |      |
+|         |        |      |
+|         |        |      |
+|         |        |      |
+|         |        |      |
+|         |        |      |
+|         |        |      |
+

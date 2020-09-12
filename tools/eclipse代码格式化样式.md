@@ -2,7 +2,7 @@
 
 ctrl + shift + F
 
-
+## Java文件
 
 缩进
 
@@ -14,3 +14,10 @@ Line Wrappering
 
 -> Never join already wrapped lines 
 
+## css
+
+缩进 两个空格
+
+## js
+
+## html
