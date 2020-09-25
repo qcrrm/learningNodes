@@ -66,15 +66,15 @@ alert table table_name add column_name varchar(20) not null
 
 ## 数据类型
 
-| mysql   | java   |      |
-| ------- | ------ | ---- |
-| VARCHAR | String |      |
-| CAHR    | String |      |
-|         |        |      |
-|         |        |      |
-|         |        |      |
-|         |        |      |
-|         |        |      |
-|         |        |      |
-|         |        |      |
+| mysql     | java    |      |
+| --------- | ------- | ---- |
+| VARCHAR   | String  |      |
+| CAHR      | String  |      |
+| int(11)   | Long    |      |
+| tinyint   | boolean |      |
+| datetime  |         |      |
+| timestamp |         |      |
+|           |         |      |
+|           |         |      |
+|           |         |      |
 
