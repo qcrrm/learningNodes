@@ -1,6 +1,6 @@
 ## nginx安装
 
-CentOS
+### CentOS
 
 安装gcc  pcre-devel zlib-devel openssl-devel
 
@@ -27,13 +27,31 @@ make install
 ./nginx
 ```
 
-添加ssl配置
+### ubuntu
 
+安装
 
+```
+sudo apt-get install nginx 
+```
+
+启动
+
+```
+service nginx restart
+```
+
+配置文件
+
+cd /etc/nginx/nginx.conf
 
 ## Nginx基础复习
 
 ## 核心配置分析
+
+### 添加ssl配置
+
+
 
 ## 虚拟主机配置
 
