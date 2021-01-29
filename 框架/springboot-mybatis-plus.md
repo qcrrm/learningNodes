@@ -1,3 +1,5 @@
+
+
 ## 添加依赖
 
 ```
@@ -9,9 +11,31 @@
 </parent>
 ```
 
+```xml
+<dependency>
+    <groupId>com.baomidou</groupId>
+    <artifactId>mybatis-plus-boot-starter</artifactId>
+    <version>3.4.2</version>
+</dependency>
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <scope>runtime</scope>
+</dependency>
+```
 
 
 
+## application.yml
+
+```yaml
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=UTF8&serverTimezone=GMT%2B8
+    username: root
+    password: test
+```
 
 ## null值问题
 
