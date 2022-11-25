@@ -23,7 +23,7 @@ public Object login() {
 
 ```
 @Configuration
-@EnableWebMvc
+// @EnableWebMvc
 public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {

@@ -12,4 +12,7 @@
 
 -  Alibaba Java Coding Guidelines
 - CodeMetrics
+- Git Commit Template
+- CamelCase
+- Alibaba Cloud AI Coding Assistant
 
