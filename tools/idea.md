@@ -16,3 +16,12 @@
 - CamelCase
 - Alibaba Cloud AI Coding Assistant
 
+- Vuesion Theme
+- lombok
+- File Expander
+- maven helper
+- arthas idea
+
+- VisualGC
+
+- CheckStyle-IDEA
